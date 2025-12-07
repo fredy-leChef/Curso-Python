@@ -1,0 +1,6 @@
+nome = input("Como você se chama?")
+print('Olá,',nome+'!','Bem vindo ao meu primeiro programa de python!')
+dia = input('Em que dia você nasceu?')
+mes = input('E o mês?')
+ano = input('Agora o ano.')
+print('Você nasceu no dia',dia,'de',mes,'de',ano+'. Correto?')
