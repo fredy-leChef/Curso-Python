@@ -12,8 +12,8 @@ print('Para sistema hexadecimal digite: 3.')
 sleep(1)
 base = int(input('Qual base você deseja converter? '))
 if base == 1:
-    print(bin(num[2:]))
+    print(bin(num))
 elif base == 2:
-    print(oct(num[2:]))
+    print(oct(num))
 else:
-    print(hex(num[2:]))
+    print(hex(num))
