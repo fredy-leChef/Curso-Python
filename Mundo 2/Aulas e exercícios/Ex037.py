@@ -12,8 +12,8 @@ print('Para sistema hexadecimal digite: 3.')
 sleep(1)
 base = int(input('Qual base você deseja converter? '))
 if base == 1:
-    print(bin(num))
+    print(f'O número {num} em sistema binário é: {num:b}')
 elif base == 2:
-    print(oct(num))
+    print(f'O número {num} em sistema cotal é: {num:o}')
 else:
-    print(hex(num))
+    print(f'O numero {num} em sistema hexadecimal é: {num:h}')
