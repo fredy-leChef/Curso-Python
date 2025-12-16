@@ -6,14 +6,16 @@ from time import sleep
 
 num = int(input('Digite o número que deseja converter: '))
 sleep(1)
-print('Para sistema binário digite: 1.')
-print('Para sistema octal digite: 2.')
-print('Para sistema hexadecimal digite: 3.')
+print('[1] Para sistema binário')
+print('[2] Para sistema octal')
+print('[3] Para sistema hexadecimal')
 sleep(1)
 base = int(input('Qual base você deseja converter? '))
 if base == 1:
     print(f'O número {num} em sistema binário é: {num:b}')
 elif base == 2:
     print(f'O número {num} em sistema cotal é: {num:o}')
-else:
+elif base == 3:
     print(f'O numero {num} em sistema hexadecimal é: {num:h}')
+else:
+    print('Opção inválida. Tente novamente')

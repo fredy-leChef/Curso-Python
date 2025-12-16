@@ -17,4 +17,4 @@ if idade < 18:
 elif idade == 18:
     print('Você deverá se alistar neste ano.')
 elif idade > 18:
-    print(f'Você deveria ter se alistado a {idade-18} anos atrás.')
+    print(f'Você deveria ter se alistado em {idade-18} anos atrás, ou seja em {ano - 18}.')
