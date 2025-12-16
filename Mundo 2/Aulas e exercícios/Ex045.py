@@ -14,12 +14,36 @@ user = int(input('Escolha sua jogada:\n[ 0 ] Pedra\n[ 1 ] Papel\n[ 2 ] Tesoura\n
 
 usuario = itens[user] #mudando o número escolhido pela jogada.
 print('=-=' * 10)
-print(f'Você escolheu {usuario} e eu escolhi {pc}')
+print(f'Você escolheu {usuario}.\nEu escolhi {pc}.')
 print('=-=' * 10)
 
-
-
-
+if user == 0:
+    if computador == 0:
+        print('Jogo empatado')
+    elif computador == 1:
+        print(f'Eu ganhei! {pc} ganha de {usuario}')
+    elif computador == 2:
+        print(f'Você ganhou! {usuario} ganha de {pc}')
+    else:
+        print('Escolha outro valor.')
+if user == 1:
+    if computador == 1:
+        print('Jogo empatado')
+    elif computador == 0:
+        print(f'Você ganhou! {usuario} ganha de {pc}.')
+    elif computador == 2:
+        print(f'Eu ganhei! {pc} ganha de {usuario}.')
+    else:
+        print('Escolha outro valor.')
+if user == 2:
+    if computador == 2:
+        print('Jogo empatado!')
+    elif computador == 1:
+        print(f'Você ganhou! {usuario} ganha de {pc}.')
+    elif computador == 0:
+        print(f'Eu ganhei! {pc} ganha de {usuario}.')
+    else:
+        print('Escolha outro valor.')
 
 
 
