@@ -5,5 +5,6 @@ r = int(input('Digite a razão da PA: '))
 n = 10
 an = a1 + (n-1) * r
 
-for i in range (a1, an + n, r):
+
+for i in range (a1, an + r, r):
     print(i)
