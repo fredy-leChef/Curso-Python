@@ -1,4 +1,6 @@
 #Crie um programa que leia uma frase qualquer e diga se ela é um palíndromo, desconsiderando os espaços.
+#preciso relembrar a manipulação de textos.
+
 
 a = str(input('Digite uma frase: ')).upper().strip()
 palavras = a.split()
